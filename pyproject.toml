@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kungfu-whale"
+version = "0.2.0"
+description = "Kung Fu Whale (功夫鲸) — a local DeepSeek-powered AI programming-assistant web app with streaming, thinking, an agent loop, and tool calling"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+dependencies = [
+    "openai>=2.48.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+]
+
+[tool.setuptools]
+# The app is run directly from the repository (python app.py); no package discovery is needed.
+py-modules = [
+    "agent",
+    "api_template",
+    "app",
+    "checkpoints",
+    "common",
+    "config",
+    "python_env",
+    "server",
+    "session",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

@@ -1,0 +1,13 @@
+# Kung Fu Whale（功夫鲸）— runtime dependencies
+# Install:  pip install -r requirements.txt
+#
+# The backend is otherwise built entirely on the Python standard library
+# (http.server, sqlite3, urllib, json, etc.), so this is the only third-party
+# runtime dependency.
+
+# DeepSeek API SDK (OpenAI-compatible client)
+openai>=2.48.0
+
+# --- Development / testing (optional; install separately) ---
+# pip install pytest
+# python -m pytest

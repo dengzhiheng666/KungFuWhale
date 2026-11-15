@@ -1,0 +1,42 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+build/
+dist/
+
+# ---- Environment / secrets ----
+.env
+.env.local
+
+# ---- Test & coverage ----
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ---- Editor / IDE ----
+.vscode/
+.idea/
+*.swp
+
+# ---- Runtime data (generated locally) ----
+.checkpoints/
+.sessions/
+.memory.json
+.app.pid
+
+# ---- Test / debug artifacts ----
+.shots/
+.testdeps/
+.testtmp*/
+.chrome-*/
+tmp*/
+.chrome-stderr.log
+.chrome-stdout.log
+
+# ---- Tooling caches ----
+.playwright-cli/
+.codebuddy/
