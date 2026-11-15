@@ -1,4 +1,4 @@
-# Kung Fu Whale（功夫鲸）— runtime dependencies
+# Kung Fu Whale（武鲸）— runtime dependencies
 # Install:  pip install -r requirements.txt
 #
 # The backend is otherwise built entirely on the Python standard library

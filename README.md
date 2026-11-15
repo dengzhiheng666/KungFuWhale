@@ -1,4 +1,4 @@
-# 功夫鲸（Kung Fu Whale）—— DeepSeek AI 编程助手
+# 武鲸（Kung Fu Whale）—— DeepSeek AI 编程助手
 
 一个**本地自托管**的 AI 编程助手 Web 应用，由 **DeepSeek** 大模型驱动。通过一个 API Key，即可在浏览器里与模型实时对话、查看**思考过程（Chain of Thought）**、实时监控 **Token 用量与生成速度**，并让一个**智能体（Agent）循环**在工作目录内自动读取、编写、编辑、测试和运行代码。
 
@@ -104,7 +104,7 @@ kungfu-whale/
 ├── python_env.py       # Python 环境探测与虚拟环境激活
 ├── api_template.py     # DeepSeek 原始调用模板（复用 config.py）
 ├── index.html          # 单页前端：聊天 UI、设置、i18n（中/英）、附件、引导
-├── whale-logo.svg      # 应用图标（功夫鲸）
+├── whale-logo.svg      # 应用图标（武鲸）
 ├── tools/              # 智能体工具实现（文件、命令、数据库、lint、测试、联网、交互）
 ├── tests/              # 测试套件（无需联网）
 ├── LICENSE             # Apache-2.0 许可证

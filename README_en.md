@@ -1,4 +1,4 @@
-# Kung Fu Whale（功夫鲸）— DeepSeek AI Programming Assistant
+# Kung Fu Whale（武鲸）— DeepSeek AI Programming Assistant
 
 A **local, self-hosted** AI programming-assistant web app powered by **DeepSeek**. Chat with the model in real time, watch its **reasoning (Chain of Thought)**, monitor **token usage and generation speed live**, and let an **agent loop** read, write, edit, test, and run code inside a working folder — all through a single DeepSeek API key.
 
